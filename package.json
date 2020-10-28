@@ -1,0 +1,27 @@
+{
+  "name": "rsamusicbot",
+  "version": "0.0.1",
+  "description": "Bot de musica do Discord baseado no EvoBot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "Raphael Simões Andrade",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "0.3.2",
+    "discord.js": "12.0.1",
+    "express": "4.16.3",
+    "ffmpeg-static": "4.2.3",
+    "lyrics-finder": "21.0.5",
+    "node-opus": "^0.3.3",
+    "nodemon": "2.0.4",
+    "simple-youtube-api": "5.1.1",
+    "soundcloud-downloader": "0.1.2",
+    "string-progressbar": "1.0.1",
+    "winston": "^3.3.3",
+    "ytdl-core": "^4.0.0",
+    "ytdl-core-discord": "1.2.4"
+  }
+}
